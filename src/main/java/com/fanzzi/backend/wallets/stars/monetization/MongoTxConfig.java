@@ -1,0 +1,17 @@
+package com.fanzzi.backend.wallets.stars.monetization;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.data.mongodb.MongoDatabaseFactory;
+import org.springframework.data.mongodb.MongoTransactionManager;
+
+@Configuration
+public class MongoTxConfig {
+
+    @Bean
+    MongoTransactionManager transactionManager(
+            MongoDatabaseFactory dbFactory
+    ) {
+        return new MongoTransactionManager(dbFactory);
+    }
+}
