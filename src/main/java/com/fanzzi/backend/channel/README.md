@@ -338,7 +338,7 @@ This module is built to support:
 If you want, I can also give you:
 
 🔥 Full backend architecture for Fanzzi
-🔥 Feed system (OnlyFans/Telegram style)
+🔥 Feed system (Telegram style)
 🔥 Subscription + wallet system design
 🔥 Real-time chat architecture
 🔥 Global scale deployment plan
